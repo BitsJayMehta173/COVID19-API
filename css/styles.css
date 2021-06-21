@@ -49,9 +49,21 @@ body{
 }
 .notice-info{
     display:block;
-    margin-top: 53px;
+    margin-top: 40px;
     font-size: 17px;
     width: 80%;
     letter-spacing: 1.5px;
     line-height: 28px;
+}
+.btn-ov{
+    cursor: pointer;
+    color: rgb(219, 212, 204);
+    background-color: rgb(185, 19, 69);
+    border: 2px rgb(185, 19, 69) dotted;
+    font-size: 14px;
+    margin: 35px;
+    margin-left: 10px;
+    border-radius: 20px;
+    height: 45px;
+    width: 130px;
 }
