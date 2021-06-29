@@ -33,17 +33,19 @@
                 <p style="color: ;">COUNTER</p>
                 <br>
                 <p class="data-analysis">Corona Virus Cases:</p>
-                <p class="data-analysis color-hover" style="color: yellow;">179,393,147</p>
-                <a href="#" style="color: #fff;"><p class="data-analysis" style="font-size: 15px; text-decoration: underline;">View by Country</p></a>
+                <p class="data-analysis color-hover" id="total" style="color: yellow;">Loading data....</p>
+                <a href="#" onclick="reload()" style="color: #fff;"><p class="data-analysis" style="font-size: 15px; text-decoration: underline;">REFRESH DATA</p></a>
                 <br>
-                <p class="data-analysis">Deaths:</p>
-                <p class="data-analysis color-hover">3,884,890</p>
+                <p class="data-analysis" >Deaths:</p>
+                <p class="data-analysis color-hover" id="death">Loading data....</p>
                 <br>
-                <p class="data-analysis">Recovered:</p>
-                <p class="data-analysis color-hover" style="color: rgb(0, 211, 28);">163,989,068</p>
+                <p class="data-analysis" >Recovered:</p>
+                <p class="data-analysis color-hover" id="recover" style="color: rgb(0, 211, 28);">Loading data....</p>
             </div>
         </div>
     </div>
-       
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="data.js"></script>
+
 </body>
 </html>
